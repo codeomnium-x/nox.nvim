@@ -10,15 +10,15 @@ return {
 	umbraStep6 = "#453e2f", -- Light warm dark
 	umbraStep7 = "#524937", -- Warm border colors
 	umbraStep8 = "#6b5d47", -- Active warm borders
-	umbraStep9 = "#fab283", -- Primary accent (unchanged)
-	umbraStep10 = "#ffc09f", -- Secondary accent (unchanged)
+	umbraStep9 = "#fab283", -- Primary accent 
+	umbraStep10 = "#ffc09f", -- Secondary accent 
 	umbraStep11 = "#8a7f6f", -- Muted warm text
 	umbraStep12 = "#f0ebe1", -- Primary warm text
-	umbraSecondary = "#5c9cf5", -- Blue accent (unchanged)
-	umbraAccent = "#9d7cd8", -- Purple accent (unchanged)
-	umbraRed = "#e06c75", -- Error/warning red (unchanged)
-	umbraOrange = "#f5a742", -- Orange highlights (unchanged)
-	umbraGreen = "#7fd88f", -- Success green (unchanged)
-	umbraCyan = "#56b6c2", -- Info cyan (unchanged)
-	umbraYellow = "#e5c07b", -- Warning yellow (unchanged)
+	umbraSecondary = "#5c9cf5", -- Blue accent 
+	umbraAccent = "#9d7cd8", -- Purple accent 
+	umbraRed = "#e06c75", -- Error/warning red 
+	umbraOrange = "#f5a742", -- Orange highlights
+	umbraGreen = "#7fd88f", -- Success green 
+	umbraCyan = "#56b6c2", -- Info cyan 
+	umbraYellow = "#e5c07b", -- Warning yellow 
 }
