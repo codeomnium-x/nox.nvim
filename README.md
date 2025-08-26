@@ -13,7 +13,7 @@
 
 </div>
 
-## 📸 Screenshots
+## 📷 Screenshots
 
 #### Dark
 <img src = "assets/Dark%20Variant.jpg" width = "75%">
@@ -26,7 +26,7 @@
 
 ---
 
-## 📷 Installation
+## 📦 Installation
 
 ### lazy.nvim (Recommended)
 
