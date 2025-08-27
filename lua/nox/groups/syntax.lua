@@ -28,7 +28,9 @@ function M.setup(colors, config)
 
 	-- Strings and header names
 	highlight("String", vim.tbl_extend("force", { fg = colors.string }, config.styles.strings))
+	local group = vim.api.nvim_create_augroup("NoxSyntaxCPP", { clear = true })
 	vim.api.nvim_create_autocmd("FileType", {
+		group = group,
 		pattern = { "cpp", "c", "cxx", "cc", "h", "hpp" },
 		callback = function()
 			highlight("CppHeaderName", { fg = colors.syntaxHeaderName })
