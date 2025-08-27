@@ -16,7 +16,7 @@ M.defaults = {
 	-- Configure terminal colors
 	terminal_colors = true,
 	
-	-- Dim inactive windows to improve focus on the active window
+	-- TODO: Dim inactive windows to improve focus on the active window
 	dim_inactive = false,
 	
 	-- Style customizations for syntax groups
