@@ -8,8 +8,6 @@ local M = {}
 ---@param colors table Complete color palette from palette.get_colors()
 ---@param config table User configuration options
 function M.setup(colors, config)
-	vim.cmd("highlight clear")
-
 	-- Apply highlights using modular groups
 	require("nox.groups.editor").setup(colors, config)
 	require("nox.groups.syntax").setup(colors, config)
