@@ -16,13 +16,13 @@
 ## 📷 Screenshots
 
 #### Dark
-<img src = "assets/Dark%20Variant.jpg" width = "75%">
+<img src = "assets/Dark.jpg" width = "75%">
 
 #### Umbra
-<img src = "assets/Umbra%20Variant.jpg" width = "75%">
+<img src = "assets/Umbra.jpg" width = "75%">
 
 #### Light
-<img src = "assets/Light%20Variant.jpg" width = "75%">
+<img src = "assets/Light.jpg" width = "75%">
 
 ---
 
