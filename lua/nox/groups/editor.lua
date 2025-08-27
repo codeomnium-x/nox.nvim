@@ -29,7 +29,7 @@ function M.setup(colors, config)
 	highlight("CursorLine", { bg = colors.bg_element })
 	highlight("CursorColumn", { bg = colors.bg_element })
 	highlight("CursorLineNr", { fg = colors.accent, bold = true })
-	highlight("LineNr", { fg = "#3c3c3c" })
+	highlight("LineNr", { fg = colors.LineNr })
 
 	-- Columns and signs
 	highlight("SignColumn", { fg = colors.comment, bg = bg })
@@ -71,9 +71,6 @@ function M.setup(colors, config)
 	highlight("DiffChange", { fg = colors.yellow, bg = colors.bg })
 	highlight("DiffDelete", { fg = colors.red, bg = colors.bg })
 	highlight("DiffText", { fg = colors.blue, bg = colors.bg })
-	highlight("GitSignsAdd", { fg = colors.green })
-	highlight("GitSignsChange", { fg = colors.yellow })
-	highlight("GitSignsDelete", { fg = colors.red })
 end
 
 return M

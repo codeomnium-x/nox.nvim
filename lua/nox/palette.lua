@@ -26,6 +26,7 @@ local theme_mappings = {
 		info = colors.dark.darkCyan,            -- Information and hints
 
 		-- Text hierarchy
+		LineNr = colors.dark.darkStep6,         -- Line numbers
 		text = colors.dark.darkStep12,          -- Primary text color
 		textMuted = colors.dark.darkStep11,     -- Secondary/muted text
 
@@ -63,6 +64,7 @@ local theme_mappings = {
 		info = colors.light.lightCyan,           -- Information and hints
 
 		-- Text hierarchy
+		LineNr = colors.dark.darkStep6,        -- Line numbers
 		text = colors.light.lightStep12,         -- Primary text color
 		textMuted = colors.light.lightStep11,    -- Secondary/muted text
 
@@ -100,6 +102,7 @@ local theme_mappings = {
 		info = colors.umbra.umbraCyan,            -- Information and hints
 
 		-- Text hierarchy
+		LineNr = colors.dark.darkStep6,         -- Line numbers
 		text = colors.umbra.umbraStep12,          -- Primary text color
 		textMuted = colors.umbra.umbraStep11,     -- Secondary/muted text
 
@@ -153,8 +156,8 @@ function M.get_colors(theme)
 		["function"] = base.syntaxFunction,     -- Function names and calls
 		variable = base.syntaxVariable,         -- Variable identifiers
 		string = base.syntaxString,             -- String literals
-		number = base.syntaxNumber,             -- Numeric literals (standard)
-		operator = base.syntaxOperator,         -- +, -, =, etc.
+		number = base.syntaxNumber,             -- Numeric literals
+		operator = base.syntaxOperator,         -- Operators
 		punctuation = base.syntaxPunctuation,   -- Brackets, semicolons
 		comment = base.syntaxComment,           -- Comments and documentation
 
