@@ -9,7 +9,7 @@ local palette = require("nox.palette")
 local highlights = require("nox.highlights")
 
 ---@class NoxConfig
----@field theme "dark" | "light" Theme variant to use
+---@field theme "dark" | "light" | "umbra" Theme variant to use
 ---@field transparent boolean Enable transparent background for terminal transparency
 ---@field terminal_colors boolean Configure terminal colors for integrated terminal
 ---@field dim_inactive boolean Dim inactive windows for better focus
