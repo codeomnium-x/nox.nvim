@@ -254,6 +254,14 @@ Nox.nvim provides consistent theming for the following popular Neovim plugins:
 </details>
 
 <details>
+<summary><b>📁 File Explorers</b></summary>
+
+- **[nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua)** 
+- **[snacks.nvim](https://github.com/folke/snacks.nvim)** 
+
+</details>
+
+<details>
 <summary><b>✏️ Editing & Navigation</b></summary>
 
 - **[flash.nvim](https://github.com/folke/flash.nvim)**

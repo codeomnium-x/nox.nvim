@@ -18,6 +18,12 @@ function M.setup(colors, config)
 	-- Bufferline
 	require("nox.groups.integrations.bufferline").setup(colors, config)
 
+	-- Nvim-tree file explorer
+	require("nox.groups.integrations.nvim_tree").setup(colors, config)
+
+	-- Snacks.nvim explorer
+	require("nox.groups.integrations.snacks_explorer").setup(colors, config)
+
 	-- Lualine 
 	highlight("lualine_a_normal", { fg = colors.bg, bg = colors.accent, bold = true })
 	highlight("lualine_a_insert", { fg = colors.bg, bg = colors.green, bold = true })
